@@ -22,7 +22,7 @@ workflow Start_VMs_8pm-5am
 #              exit
 #       } 
 
-$MyVMList = @("vmuse2ppdbstg01","vmuse2ptdbstg01","vmwuse2ptdbqa01","vmlmststgwdb01","vmlmgtstgdb01","vmwstormqadb01")       # if you want all VMs use:    $MyVMList=@("*")
+$MyVMList = @("1vmuse2ppdbstg01","vmuse2ptdbstg01","vmwuse2ptdbqa01","vmlmststgwdb01","vmlmgtstgdb01","vmwstormqadb01")       # if you want all VMs use:    $MyVMList=@("*")
 
 $ResourceGroups = @("ResourceGroupXYZ")  #  if specified will find all VMs in the resource group(s)  #    $ResourceGroups=@("ResourceGroupXYZ","MyNewResourceGroup1")
 
