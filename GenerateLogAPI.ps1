@@ -21,7 +21,6 @@ $jobIDnum = $PSPrivateMetadata.JobId.Guid
 
 $timestamp = (Get-Date).toUniversalTime() | Get-Date -Format s | ForEach-Object { $_ -replace ":", "." }
 
-$utctime = $timestamp.toUniversalTime()
 
 # Create two records with the same set of properties to create
 $json = @"
