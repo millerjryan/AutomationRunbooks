@@ -40,3 +40,5 @@ $DateTime =  (Get-Date).ToString()
 
 Write-Log -Message "This is the new QUID: $GenGuid"
 Write-Log -Message "This is an warn on date :: $DateTime" -Level Warn
+Write-Log -Message "This is the Job ID of this run $PSPrivateMetadata.JobId.Guid" -Level Warn
+
